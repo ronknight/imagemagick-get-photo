@@ -1,0 +1,28 @@
+flowchart-diagram
+
+title Photo Generator Flowchart
+
+// Define groups for better organization
+Setup [color: lightblue] {
+  Clone Repository [icon: git-branch]
+  Install Dependencies [icon: package]
+  Create .env File [icon: file-text]
+}
+
+Execution [color: lightgreen] {
+  Read CSV File [icon: file-text]
+  Locate TIFF Files [icon: search]
+  Generate JPG Images [icon: image]
+}
+
+Error Handling [color: lightcoral] {
+  TIFF Not Found [icon: alert-triangle]
+  Skip Item [icon: skip-forward]
+}
+
+// Define the flow
+Start [shape: oval, icon: play-circle] > Clone Repository: Clone the repository or download the source code
+Clone Repository > Install Dependencies: Install the required Python package
+Install Dependencies > Create .env File: Create a .env file in the project directory
+Create .env File > Open Terminal [shape: oval, icon: terminal]: Open a terminal or command prompt and navigate to the project directory
+Open Terminal > Run Script [shape: oval, icon: play-circle]: Run the script with 
