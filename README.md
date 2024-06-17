@@ -2,7 +2,26 @@
 
 # [﻿Photo Generator](https://github.com/ronknight/imagemagick-get-photo) 
 #### This Python script generates JPG images from TIFF files using ImageMagick. It reads item names from a CSV file, locates the corresponding TIFF files in a specified directory, and generates JPG images in another directory.
- [﻿Prerequisites](#prerequisites) • [﻿Installation](#installation) • [﻿Usage](#usage) • [﻿Notes](#notes) • [﻿Diagrams](#diagrams) • 
+
+<p align="center">
+<a href="https://twitter.com/PinoyITSolution"><img src="https://img.shields.io/twitter/follow/PinoyITSolution?style=social"></a>
+<a href="https://github.com/ronknight?tab=followers"><img src="https://img.shields.io/github/followers/ronknight?style=social"></a>
+<a href="https://github.com/ronknight/ronknight/stargazers"><img src="https://img.shields.io/github/stars/BEPb/BEPb.svg?logo=github"></a>
+<a href="https://github.com/ronknight/ronknight/network/members"><img src="https://img.shields.io/github/forks/BEPb/BEPb.svg?color=blue&logo=github"></a>
+  <a href="https://youtube.com/@PinoyITSolution"><img src="https://img.shields.io/youtube/channel/subscribers/UCeoETAlg3skyMcQPqr97omg"></a>
+<a href="https://github.com/ronknight/imagemagick-get-photo/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://github.com/ronknight/imagemagick-get-photo/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+<a href="#"><img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"></a>
+<a href="https://github.com/ronknight"><img src="https://img.shields.io/badge/Made%20with%20%F0%9F%A4%8D%20by%20-%20Ronknight%20-%20red"></a>
+</p>
+
+<p align="center">
+  <a href="#prerequisites">Prerequisites</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#notes">Notes</a> •
+  <a href="#diagrams">Diagrams</a> •
+</p>
 
 ---
 
