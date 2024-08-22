@@ -1,3 +1,4 @@
+# imagemagick-get-photo
 <p><a target="_blank" href="https://app.eraser.io/workspace/I2gu6P6fOaPpL3pY480G" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
 # [﻿Photo Generator](https://github.com/ronknight/imagemagick-get-photo) 
@@ -23,21 +24,10 @@
   <a href="#diagrams">Diagrams</a> •
 </p>
 
----
-
-## Prerequisites
-- Python 3.x
-- ImageMagick installed and accessible from the command line
-- A CSV file with item names in the first column
-- A directory containing TIFF files with names matching the item names in the CSV file
-## Installation
-1. Clone the repository or download the source code.
-2. Install the required Python package by running `pip install python-dotenv` .
-3. Create a `.env`  file in the project directory and add the following environment variables:
 ```bash
-MAGICK_PATH=/path/to/magick
-TIFF_DIRECTORY=/path/to/tiff/files
-JPEG_DIRECTORY=/path/to/output/jpg/files
+MAGICK_PATH="C:\"
+TIFF_DIRECTORY="\\192.168.1.50\ImageRepository\Master-Tiff"
+JPEG_DIRECTORY="C:\Users\rona\OneDrive - 4sgm.com\Email Catalog"
 ```
 Replace the paths with the actual paths on your system.
 
